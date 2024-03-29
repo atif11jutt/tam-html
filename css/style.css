@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Trocchi&display=swap");
+
+/* 
+  font-family: "Trocchi", serif;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  color: #142769 !important;
+  font-weight: 500;
+}
+
+.btn-donate {
+  color: #e62229 !important;
+  border: 2px solid #e62229;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 0.25rem 1.5rem !important;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.btn-donate:hover {
+  color: #fff !important;
+  background-color: #e62229;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-dark-blue {
+  color: #142769;
+}
+
+.text-red {
+  color: #ff2d20;
+}
+
+.text-white2 {
+  color: #cacfdd;
+}
+
+.banner {
+  background-color: #142769;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-title {
+  font-family: "Trocchi", serif;
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+.banner-sub-heading {
+  font-size: 5rem;
+  color: #cacfdd;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.banner-heading {
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 0.85;
+}
+
+.banner-btn {
+  background-color: #ff2d20;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.75rem;
+  padding: 0.5rem 3rem;
+  text-decoration: none !important;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.desktop-tim {
+  position: absolute;
+  height: calc(100% + 30px);
+  top: -30px;
+  left: 0;
+  z-index: 0;
+}
+
+/* newsletter */
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.form-check {
+  margin-bottom: 0; /* Remove default margin for checkbox */
+}
+
+input.form-control {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #000;
+  border-radius: 0 !important;
+  padding-left: 0;
+}
+
+.btn-red {
+  background-color: #ff2d20;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none !important;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.bg--light {
+  background-color: #f4f4f4;
+}
+
+.bg-blue {
+  background-color: #142769;
+}
+
+.blue-section-heading-1 {
+  font-size: 5.5vw;
+  line-height: 0.7;
+}
+
+.blue-section-heading-2 {
+  font-size: 4vw;
+}
+
+.issue-image {
+  height: 85px;
+}
+
+.btn-light-blue {
+  background-color: #7c87ab;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none !important;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.vote-para {
+  font-size: 1.7rem;
+  color: #142769;
+  font-family: "Trocchi", serif;
+  font-weight: 600;
+}
+
+.banner2 {
+  background-color: #142769;
+  color: #cacfdd;
+}
+
+.banner-heading2 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #292929;
+}
+
+footer .footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 2rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1400px) {
+  .banner-title {
+    font-size: 1.85rem;
+  }
+
+  .banner-sub-heading {
+    font-size: 4.5rem;
+  }
+
+  .banner-heading {
+    font-size: 9rem;
+  }
+
+  .blue-section-heading-1 {
+    font-size: 5vw;
+    line-height: 0.8;
+  }
+
+  .blue-section-heading-2 {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner-sub-heading {
+    font-size: 3.75rem;
+  }
+
+  .banner-heading {
+    font-size: 7rem;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-btn {
+    font-size: 1.65rem;
+  }
+
+  .newsletter-form {
+    flex-wrap: wrap;
+  }
+
+  .form-desktop-1 {
+    width: 49%;
+  }
+
+  .form-desktop-2 {
+    width: 32%;
+  }
+
+  .form-desktop-3 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-sub-heading {
+    font-size: 2rem;
+  }
+
+  .banner-heading {
+    font-size: 4rem;
+  }
+
+  .banner-title {
+    font-size: 1.15rem;
+  }
+  .banner-btn {
+    font-size: 1.25rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .blue-section-heading-1 {
+    font-size: 4vw;
+    line-height: 0.8;
+  }
+
+  .blue-section-heading-2 {
+    font-size: 2.75vw;
+  }
+
+  .banner-heading2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-sub-heading {
+    font-size: 5rem;
+  }
+
+  .banner-heading {
+    font-size: 5.5rem;
+  }
+
+  .banner-title {
+    font-size: 1.8rem;
+  }
+  .banner-btn {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    padding: 0.5rem 3rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .form-desktop-1,
+  .form-desktop-2 {
+    width: 100%;
+  }
+
+  .blue-section-heading-1 {
+    font-size: 9vw;
+    line-height: 1;
+    margin-top: 2rem;
+  }
+
+  .blue-section-heading-2 {
+    font-size: 6.5vw;
+  }
+
+  .banner2 .container {
+    max-width: none;
+    padding: 0;
+    text-align: center;
+  }
+  .banner-heading2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .blue-section-heading-1 {
+    font-size: 14vw;
+  }
+
+  .blue-section-heading-2 {
+    font-size: 10vw;
+  }
+}

@@ -2,213 +2,274 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 
-  <meta charset="utf-8">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Page Title -->
-  <title>Adan Rodriguez - Industrial Designer - Inventor</title>
-  <!--/ Page Title -->
+  <!-- custom script -->
+  <script src="js/script.js"></script>
 
-  <meta name="author" content="Adan Rodriguez">
-  <meta name="description" content="Industrial Designer">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700&display=swap" rel="stylesheet">
-
-  <link href="css/plugins.css" rel="stylesheet">
-  <link href="css/entypo.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-  <link href="style.css" rel="stylesheet">
-  <!-- <link href="rgb.css" rel="stylesheet"> -->
-
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="images/favicon.png" />
-  <link rel="apple-touch-icon" href="images/favicon.png" />
-  <!--/ Favicons -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <title>Brian Tam</title>
 </head>
 
 <body>
-  <!-- Loading Text -->
-  <div class="loading-text">Loading</div>
-  <!-- Loading Text -->
 
-  <!-- Page Loader -->
-  <div class="adan-loader">
-    <div class="counter" data-count="99">00</div>
-  </div>
-  <!-- /Page Loader -->
-
-  <!-- Overlays (Don't Touch) -->
-  <div class="overlays"></div>
-  <!-- /Overlays -->
-
-  <!-- Header -->
-  <header class="site-header">
-
-    <!-- Branding -->
-    <div class="site-branding">
-      <img class="dark-logo"  onclick=location="home" style="cursor:pointer;"href ="home" src="images/logo.png" alt="Site Logo">
-      <img class="light-logo"  onclick=location="home" style="cursor:pointer;"href ="home" src="images/logo_white.png" alt="Site Logo">
-    </div>
-    <!-- /Branding -->
-
-    <!-- Menu -->
-    <div class="site-navigation">
-
-      <!-- Menu Toggle (Don't Touch) -->
-      <div class="menu-toggle"></div>
-      <!-- /Menu Toggle -->
-
-      <!-- Menu Overlays (Don't Touch) -->
-      <div class="menu-overlays"></div>
-      <!-- Menu Overlays -->
-
-      <div class="menu-wrapper">
-
-        <!-- Navigation -->
-        <ul class="menu">
-
-          <!-- Main Menu -->
-          <li class="menu-item" onclick=location="projects"><a href="projects">Work</a></li>
-          <li class="menu-item"><a href="info">About Adan</a></li>
-          <!-- /Main Menu -->
-
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar-brand mx-auto" href="index.html">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="issues.html">Issues</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-donate" href="https://secure.anedot.com/friends-of-brian-tam/donate"
+              target="_blank">Donate</a>
+          </li>
         </ul>
-        <!-- /Navigation -->
 
       </div>
-
-      <!-- Menu Widget (Left) -->
-      <div class="menu-widget-wrapper mww-1">
-        <div class="menu-widget">
-          <div class="menu-widget-title">
-            Enquiries
-            <span class="pe-empty-space" style="height: 5px"></span>
-            <h5> <a href="mailto:adan@adanrodriguez.us">adan@adanrodriguez.us</a></h5>
-            <ul class="footer-menu">
-              <!--/ empty content here -->
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!--/ Menu Widget (Left) -->
-
-
     </div>
-    <!-- /Menu -->
+  </nav>
 
-  </header>
-  <!-- /Header -->
 
-  <!-- Site Content -->
-  <div id="main" class="content">
-
-    <!-- Page Settings -->
-    <div class="page-settings" data-layout="light" data-header-style="dark" data-menu-layout="dark"></div>
-    <!--/ Page settings -->
-
-    <!--Portfolio Big Slider-->
-    <div class="fullscreen portfolio-showcase">
-
-      <!-- Big Slider Overlays (Don't Touch) -->
-      <div class="big-slider-overlays"></div>
-      <!--/ Big Slider Overlays (Don't Touch) -->
-
-      <div class="big-slider">
-        <div class="big-slider-wrapper">
-
-          <!-- Project -->
-          <div class="big-slider-item">
-
-            <!-- Project URL -->
-            <a href="project-1.html"></a>
-            <!--/ Project URL -->
-
-            <!-- Project Featured Image -->
-            <div class="image">
-              <img src="images/slideshow/1.png" alt="Big Slider Project Image">
-            </div>
-            <!--/ Project Featured Image -->
-
-          </div>
-          <!--/ Project -->
-
-          <div class="big-slider">
-            <div class="big-slider-wrapper">
-
-              <!-- Project -->
-              <div class="big-slider-item">
-
-                <!-- Project URL -->
-                <a href="project-1.html"></a>
-                <!--/ Project URL -->
-
-                <!-- Project Featured Image -->
-                <div class="image">
-                  <img style="z-index: 99;" src="images/slideshow/2.png" alt="Big Slider Project Image">
-                </div>
-                <!--/ Project Featured Image -->
-
-              </div>
-              <!--/ Project -->
-
-              <!-- Project -->
-              <div class="big-slider-item">
-
-                <!-- Project URL -->
-                <a href="project-1.html"></a>
-                <!--/ Project URL -->
-
-                <!-- Project Featured Image -->
-                <div class="image">
-                  <img src="images/slideshow/3.png" alt="Big Slider Project Image">
-                </div>
-                <!--/ Project Featured Image -->
-
-              </div>
-              <!--/ Project -->
-
-              <!-- Project -->
-              <div class="big-slider-item">
-
-                <!-- Project URL -->
-                <a href="project-1.html"></a>
-                <!--/ Project URL -->
-
-                <!-- Project Featured Image -->
-                <div class="image">
-                  <img src="images/slideshow/4.png" alt="Big Slider Project Image">
-                </div>
-                <!--/ Project Featured Image -->
-
-              </div>
-              <!--/ Project -->
-
-            </div>
-          </div>
-
-          <div class="big-slide-pag">
-            <div style="visibility: hidden" class="big-slide-prev"><i style="visibility: hidden" class="icon-up-open-big"></i></div>
-            <div style="visibility: hidden" class="big-slide-next"><i style="visibility: hidden" class="icon-down-open-big"></i></div>
-          </div>
-
-          <div class="bs-splitted"></div>
-
+  <section class="banner">
+    <div class="container">
+      <div class="row align-items-center position-relative">
+        <div class="col-md-6 d-none d-md-block">
+          <img src="images/Tam1.png" alt="Tam" class="desktop-tim">
         </div>
-        <!--/Portfolio Big Carousel-->
+
+        <div class="col-md-6 py-5">
+          <p class="banner-title">We need accountability again from our Board of Commissioners.</p>
+          <h1 class="banner-sub-heading">We need</h1>
+          <h1 class="banner-heading">Brian Tam.</h1>
+          <a href="https://secure.anedot.com/friends-of-brian-tam/donate" target="_blank" class="banner-btn">DONATE
+            TODAY</a>
+        </div>
+
+        <div class="col-md-6 d-block d-md-none">
+          <img src="images/Tam1.png" alt="Tam">
+        </div>
 
       </div>
-      <!--/ Site Content -->
+    </div>
+  </section>
 
-      <script src="js/jquery.min.js"></script>
-      <script src="js/jquery-ui.js"></script>
-      <script src="js/plugins.js"></script>
-      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-      <script src="js/scripts.js"></script>
-      <script src="js/jquery.smoothState.js"></script>
-      <script src="js/page-transitions.js"></script>
+
+  <section class="bg-white py-5">
+    <h1 class="text-center text-dark-blue mb-3">GET INVOLVED</h1>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form class="newsletter-form" id="newsletterForm" method="post">
+            <div class="mb-3 form-desktop-1">
+              <input type="text" class="form-control" id="nameInput" placeholder="Name" required>
+            </div>
+            <div class="mb-3 form-desktop-1">
+              <input type="email" class="form-control" id="emailInput" placeholder="Email" required>
+            </div>
+            <div class="mb-3 form-check form-desktop-2">
+              <input type="checkbox" class="form-check-input" id="questionsCommentsCheck">
+              <label class="form-check-label" for="questionsCommentsCheck">I have questions/comments</label>
+            </div>
+            <div class="mb-3 form-check form-desktop-2">
+              <input type="checkbox" class="form-check-input" id="yardSignCheck">
+              <label class="form-check-label" for="yardSignCheck">I want a yard sign</label>
+            </div>
+            <div class="mb-3 form-check form-desktop-2">
+              <input type="checkbox" class="form-check-input" id="volunteerCheck">
+              <label class="form-check-label" for="volunteerCheck">I want to volunteer</label>
+            </div>
+            <button type="submit" class="btn-red mb-2 form-desktop-3">I'M IN!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- section 3 -->
+
+  <section class="bg--light">
+
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-9 mx-auto text-center">
+          <h1 class="text-red mb-4">
+            Forsyth County needs Commissioners
+            <br>
+            who will answer to the people.
+          </h1>
+
+          <p style="font-size: 1.2rem;">
+            Alfred John pushed the Board to approve a $114 million county administration complex in North
+            Forsyth. Millions in taxpayer dollars being spent on a needless government vanity project. They even
+            budgeted for outdoor balconies in the office of each Commissioner.
+            <br><br>
+            They have approved high-density apartment complexes that homeowners railed against, and they
+            have refused to cut taxes even with rising property values.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- section 4 -->
+
+  <section class="bg-blue">
+
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-9 mx-auto text-white text-center">
+
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <img src="images/ChristopherBrockPh.png" alt="" class="w-100">
+            </div>
+
+            <div class="col-md-8 px-0 px-sm-5">
+              <h1 class="mb-0 blue-section-heading-1">BRIAN TAM</h1>
+              <h2 class="text-white2 blue-section-heading-2 mb-3">ON THE ISSUES</h2>
+
+              <div class="px-3">
+                <div class="row">
+                  <div class="col-sm-4 mb-2 mb-sm-0">
+                    <img src="images/SVG/economy.svg" alt="" class="issue-image">
+                    <p class="mb-0 mt-3">ECONOMY</p>
+                  </div>
+                  <div class="col-sm-4 mb-2 mb-sm-0">
+                    <img src="images/SVG/parks.svg" alt="" class="issue-image">
+                    <p class="mb-0 mt-3">PARKS</p>
+                  </div>
+                  <div class="col-sm-4 mb-2 mb-sm-0">
+                    <img src="images/SVG/safety.svg" alt="" class="issue-image">
+                    <p class="mb-0 mt-3">SAFETY</p>
+                  </div>
+
+                </div>
+              </div>
+
+              <a href="issues.html" class="btn-light-blue">SEE MORE</a>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- section 5 -->
+
+  <section class="bg-white">
+
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-9 mx-auto">
+
+          <div class="row align-items-center">
+
+            <div class="col-lg-4 order-lg-1 mb-4 mb-lg-0">
+              <img src="images/ChristopherBrockPh2.png" alt="" class="w-100">
+            </div>
+
+            <div class="col-lg-8">
+              <p class="text-center text-lg-start">
+                Brian served Forsyth County as a Commissioner from 2004-16. He led the way on three different tax cuts,
+                brought The Collection and Halcyon to South Forsyth, and was instrumental in the creation of
+                Chattahoochee Pointe, Old Atlanta Park, Fowler Park, and Caney Creek Preserve through the 2008 parks
+                bond.
+                <br><br>
+                Now he is running to return to the Board, because we need an experienced leader who isn’t afraid to
+                stand against government waste and unwelcome development.
+                <br><br>
+                He’ll cut taxes for residents and homeowners again, stand against new apartments and highdensity, and
+                put a stop to out-of-control spending.
+
+              </p>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <!-- section 6 -->
+
+  <section class="bg--light">
+
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12 text-center">
+          <p class="vote-para mb-3">Let’s restore accountability in Forsyth County. </p>
+          <h1 class="text-red">
+            On May 21, vote Brian Tam for County Commission.
+          </h1>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <footer>
+    <div class="py-5">
+      <p class="text-center mb-0">
+        <a href="index.html">
+          <img src="images/logo-white.png" alt="" class="footer-logo">
+        </a>
+      </p>
+
+      <p class="text-center mb-0">
+        <a class="text-light mx-1" href="about.html">About</a>
+        <a class="text-light mx-1" href="issues.html">Issues</a>
+        <a class="text-light mx-1" href="https://secure.anedot.com/friends-of-brian-tam/donate"
+          target="_blank">Donate</a>
+        <a class="text-light mx-1" href="https://www.facebook.com/" target="_blank"><i
+            class="fa-brands fa-square-facebook"></i></a>
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
